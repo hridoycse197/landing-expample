@@ -1,0 +1,862 @@
+/* STYLE - The workforce (09-06-22) 
+===================================*/
+
+body {
+    color: #131c43;
+    font-family: 'Roboto', sans-serif;
+}
+
+.full-width-image-container {
+    position: fixed;
+    width: 100vw;
+    /* Full width of the viewport */
+
+    /* Full height of the viewport */
+}
+
+.full-width-image {
+    object-fit: cover;
+}
+
+.carousel_slide {
+    margin: 0;
+    /* Remove margin */
+
+}
+
+.carousel-item active carousel-item {
+    width: 100%;
+    height: 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+/*Start Header*/
+header {
+    background: #f7f7f7;
+    padding: 15px 0;
+}
+
+.logo-theCityzen {
+    width: 200px;
+    display: block;
+}
+
+.header-top-right {
+    list-style: none;
+    padding: 6px 0 0 0;
+    margin: 0;
+    display: flex;
+    font-size: 14px;
+    justify-content: flex-end;
+}
+
+.header-top-right li {
+    display: flex;
+    margin-left: 15px;
+    line-height: 10px;
+}
+
+.header-top-right li span {
+    /* height: 30px; */
+    /* width: 30px; */
+    border-radius: 50px;
+    /* background: #c6e9f4; */
+    color: #131c43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    /* border: 1px solid #a0cedb; */
+}
+
+.header-top-right li span.tp-google-play-btn {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 14px;
+}
+
+.header-top-right li span.tp-google-play-btn b {
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+}
+
+.header-top-right li a {
+    height: 38px;
+    padding: 0 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 36px;
+    min-width: 160px;
+    border: 1px solid #48d2f9;
+    color: #131c43;
+    text-align: center;
+    /* box-shadow: rgba(100,100,100,.3) 0 0 5px!important; */
+    background: #95e8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-top-right li a:hover {
+    border: 1px solid #fff;
+    box-shadow: rgba(100, 100, 100, .3) 0 0 5px !important;
+    background: #ffffff;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.header-top-right li a.top-sign-btn i {
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.header-top-right li a.top-download-btn i {
+    font-size: 16px;
+    margin-right: 7px;
+}
+
+/*End Header*/
+
+/*Start Carousel*/
+.carousel {
+    margin-bottom: 4rem;
+
+}
+
+.carousel-caption {
+    bottom: 8rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item>img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #121E42;
+}
+
+.carousel-caption h1 {
+    width: 500px;
+}
+
+.carousel-caption h2 {
+    width: 546px;
+}
+
+.carousel-caption p {
+    width: 600px;
+}
+
+.btn-warningo {
+    color: #000;
+    background-color: #ffa133;
+    border-color: #efcb00;
+}
+
+.btn-warningo1 {
+    color: #000;
+    background-color: #ffe7cc;
+    border-color: #efcb00;
+    line-height: 16px;
+    font-size: 15px;
+}
+
+/*End Carousel*/
+
+
+/*Start Features*/
+.workforce-features {
+    padding-bottom: 60px;
+    background-color: #ffffff;
+
+    border-top: 70px solid #ffffff;
+}
+
+.workforce-introduction {
+    margin-bottom: 60px;
+}
+
+.workforce-introduction p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.workforce-introduction p span {
+    font-size: 22px;
+    color: #121E42;
+    font-weight: 700;
+}
+
+.workforce-feature-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.workforce-feature-item .icon {
+    height: 75px;
+    width: 75px;
+    background: #95e8ff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding: 20px;
+}
+
+.workforce-feature-image {
+    /* text-align: center; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workforce-feature-item-heading {
+    display: flex;
+    align-items: center;
+}
+
+.workforce-feature-item-heading h4 {
+    width: calc(100% - 90px);
+    margin-bottom: 20px;
+}
+
+.workforce-feature-item-lft .workforce-feature-item-heading {
+    flex-direction: row-reverse;
+}
+
+.workforce-feature-item-lft .workforce-feature-item-heading h4,
+.workforce-feature-item-lft p,
+.workforce-feature-item-lft article {
+    text-align: right;
+}
+
+.workforce-feature-item article {
+    min-height: 100px;
+}
+
+.workforce-feature-item article button {
+    border: none;
+    background: none;
+    color: #0d6efd;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.workforce-feature-item-lft .icon {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+
+
+/*End Features*/
+/*Start How it works*/
+.how-workforce-works {
+    background: #ffffff;
+    padding: 60px 0;
+}
+
+.workforce-cloud-apps {
+    background: #EAE9F4;
+    padding: 60px 0;
+}
+
+.how-workforce-works-step {
+    min-height: 371px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.how-workforce-works-step .icon-circle {
+    color: #f3c03e;
+    font-size: 30px;
+    width: 180px;
+    height: 180px;
+    line-height: 85px;
+    border-radius: 50%;
+    border: 1px dashed #121E42;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    background: #fff;
+    position: relative;
+    z-index: 4;
+}
+
+.how-workforce-works-step .icon-circle b {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    background: #fff;
+    box-shadow: rgba(100, 100, 100, .3) 0 0 10px !important;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #131c43;
+}
+
+.how-workforce-works-step-sec .arrow-image {
+    right: -8% !important;
+}
+
+.how-workforce-works-step .arrow-image {
+    position: absolute;
+    width: 45%;
+    right: -4%;
+    top: 118px;
+    opacity: 1;
+}
+
+.how-workforce-works-step .arrow-image.tobotm {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+.how-workforce-works-step .icon-circle1 {
+    background: url("/images/landing/Step-1.jpg");
+
+}
+
+.how-workforce-works-step .icon-circle2 {
+    background: url("/images/landing/Step-2.jpg");
+}
+
+.how-workforce-works-step .icon-circle3 {
+    background: url("/images/landing/Step-3.jpg") no-repeat;
+}
+
+.how-workforce-works-step .icon-circle4 {
+    background: url("/images/landing/Step-4.jpg") no-repeat;
+}
+
+.how-workforce-works-step .icon-circle5 {
+    background: url("/images/landing/Step-5.jpg") no-repeat;
+}
+
+.how-workforce-works-step .icon-circle6 {
+    background: url("/images/landing/Step-6.jpg") no-repeat;
+}
+
+.how-workforce-works-step .icon-circle7 {
+    background: url("/images/landing/Step-7.jpg") no-repeat;
+}
+
+.how-workforce-works-step .icon-circle8 {
+    background: url("/images/landing/Step-8.jpg") no-repeat;
+}
+
+.how-workforce-works-step h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*End How it works*/
+/*Start Other Cloud App*/
+.OtherClpodApps {
+    padding: 60px 0;
+    background: #EAE9F4;
+}
+
+.bg-left-half {
+    position: relative;
+}
+
+.bg-left-half:before {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    content: "";
+    left: 0;
+    top: 0;
+    background-color: #f8f9fa;
+}
+
+.our-cloud-app-item a.capp-item {
+    box-shadow: 0 0 10px rgb(96 105 134 / 50%);
+    display: block;
+    margin: 18px;
+}
+
+.our-cloud-app-item a,
+.our-cloud-app-item a img {
+    border-radius: 15px;
+}
+
+.our-cloud-app-item img {
+    margin-bottom: 20px;
+}
+
+.our-cloud-app-item h3 {
+    font-size: 13px;
+    font-weight: 900 !important;
+    display: flex;
+    justify-content: center;
+    /* color: #0d6efd; */
+}
+
+.our-cloud-app-item h3 a {
+    color: #84879b;
+}
+
+.owl-2-style .owl-nav {
+    display: none;
+}
+
+.owl-2-style .owl-dots {
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+}
+
+.owl-2-style .owl-dots .owl-dot {
+    display: inline-block;
+}
+
+.owl-2-style .owl-dots .owl-dot span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 0px;
+    background: #cccccc;
+    -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+    -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+    transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+    margin: 3px;
+}
+
+.owl-2-style .owl-dots .owl-dot.active span {
+    background: #131c43;
+}
+
+.owl-2-style .owl-dots .owl-dot:active,
+.owl-2-style .owl-dots .owl-dot:focus {
+    outline: none;
+}
+
+.owl-3-style .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -100px;
+}
+
+.owl-3-style .owl-dots {
+    text-align: center;
+    display: none;
+    position: relative;
+    bottom: -30px;
+}
+
+.owl-3-style .owl-dots .owl-dot {
+    display: inline-block;
+}
+
+.owl-3-style .owl-dots .owl-dot span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 0px;
+    background: #cccccc;
+    -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+    -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+    transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+    margin: 3px;
+}
+
+.owl-3-style .owl-dots .owl-dot.active span {
+    background: #131c43;
+}
+
+.owl-3-style .owl-dots .owl-dot:active,
+.owl-3-style .owl-dots .owl-dot:focus {
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-next span,
+.owl-carousel .owl-nav button.owl-prev span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background: #121e42b8;
+    font-size: 24px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/*End Other Cloud App*/
+/*Start Video Section*/
+.workforce-video {
+    background-image: url("../images/landing/map-parallax.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 60px 0;
+}
+
+.workforce-video h2 {
+    color: #fff;
+    font-size: 42px;
+}
+
+.workforce-video p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+.workforce-video .app-download-button {
+    display: flex;
+    justify-content: center;
+}
+
+.workforce-video .app-download-button a {
+    width: 170px;
+    margin: 15px;
+}
+
+.workforce-video .app-download-button a img {
+    width: 100%;
+}
+
+/*End Video Section*/
+/*Start workforce Testimonial*/
+.workforce-testimonial {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    /* Set background color to white */
+
+}
+
+.testimonial-inner {
+    display: flex;
+    height: 300px;
+    align-self: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.testimonial-inner h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.testimonial-inner .quoted {
+    font-size: 25px;
+    color: #4e577459;
+    position: absolute;
+}
+
+.allam {
+    border-radius: 15px;
+    background: #fff;
+
+    margin-right: 50px;
+    /* Shorthand for padding */
+    /* margin: 25px 15px; */
+
+    /* Shorthand for margin */
+    box-shadow: 0 0 10px rgb(96 105 134 / 50%);
+    box-sizing: border-box;
+}
+
+.cust .testimonial-inner .testimonial-text {
+    margin: 35px, 10px, 5px, 10px;
+    width: 200;
+    padding: 30px, 10px, 20px, 20px;
+
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 0 10px rgb(96 105 134 / 50%);
+}
+
+.testimonial-photo {
+    height: 65px;
+    width: 65px;
+
+    border-radius: 50px;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #ffffff;
+}
+
+.heading-title text-center p {
+    font-size: 5;
+}
+
+.testimonial-photo img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    margin-right: 20px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    margin-left: 20px;
+}
+
+/*End workforce Testimonial*/
+/*Start Contact*/
+.workforce-contact {
+    padding: 60px 0;
+    background: #212529;
+    color: #fff;
+}
+
+.workforce-contact .heading-title p {
+    color: #bdbdbd;
+    font-size: 47px;
+}
+
+.location-paragraph {
+    /* Allow paragraph to break onto multiple lines */
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: clip;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .location-paragraph {
+        /* Force paragraph to stay in one line */
+        white-space: nowrap;
+    }
+}
+
+.workforce-contact .heading-title1 p {
+    color: #bdbdbd;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.custom-list {
+    list-style-type: disc;
+    /* Use disc for round dots */
+    list-style-position: outside;
+    /* Position the bullet outside the list item */
+}
+
+.workforce-contact input.form-control {
+    background: #6c757d;
+    border: 1px solid #6c757d;
+    margin-bottom: 28px;
+    color: #fff;
+}
+
+.workforce-contact textarea.form-control {
+    background: #6c757d;
+    border: 1px solid #6c757d;
+    margin-bottom: 28px;
+    color: #fff;
+    min-height: 172px !important;
+}
+
+.workforce-contact input.form-control::placeholder,
+.workforce-contact textarea.form-control::placeholder {
+    color: #bdbdbd;
+    opacity: 1;
+    /* Firefox */
+}
+
+.workforce-contact input.form-control:-ms-input-placeholder,
+.workforce-contact textarea.form-control:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #bdbdbd;
+}
+
+.workforce-contact input.form-control::-ms-input-placeholder,
+.workforce-contact textarea.form-control::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #bdbdbd;
+}
+
+.workforce-send-message {
+    background: #cfcfcf;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #131c43;
+    display: block;
+    border-radius: 5px !important;
+    font-weight: 500;
+}
+
+.workforce-send-message:hover {
+    color: #131c43;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.workforce-contact ul.c-location {
+    list-style: none;
+    text-align: left;
+    width: 370px;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.workforce-contact ul.c-location li {
+    margin-bottom: 5px;
+    color: #bdbdbd;
+}
+
+.workforce-contact ul.c-location li i {
+    margin-right: 7px;
+}
+
+.workforce-contact .office-map {
+    height: 150px;
+}
+
+/*End Contact*/
+.workforce-footer {
+    background: #131c43;
+}
+
+.workforce-footer .social-list {
+    display: flex;
+}
+
+.workforce-footer .social-list li {
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.workforce-footer .social-list li a {
+    color: #f1b915;
+}
+
+.workforce-footer .company-about {
+    min-height: 35px;
+}
+
+.workforce-footer .company-about,
+.workforce-footer .company-about a {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+    line-height: 35px;
+}
+
+.workforce-footer .company-about a {
+    font-weight: 500;
+    color: #6ec0d6;
+}
+
+/*Privacy*/
+.workforce-privacy {
+    text-align: left !important;
+    background: #e4f0f2;
+    border-top: 1px solid #c8d9dc;
+}
+
+.workforce-privacy p {
+    font-size: 15px;
+    text-align: left;
+}
+
+.workforce-privacy h2 {
+    margin-top: 50px;
+}
+
+.workforce-privacy h3,
+.workforce-privacy h4,
+.workforce-privacy h5 {
+    margin-top: 35px;
+}
+
+.workforce-privacy a {
+    color: #35a5c2;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 4rem;
+    }
+}
+
+.row {
+    margin: 0px;
+}
+
+.row1 {
+    margin: 50px;
+}
+
+
+@media all and (max-width:1399px) {
+    .how-workforce-works-step-sec .arrow-image {
+        right: -18% !important;
+    }
+}
+
+@media all and (max-width:1199px) {
+    .how-workforce-works-step .icon-circle {
+        height: 160px;
+        width: 160px;
+    }
+
+    .how-workforce-works-step .arrow-image {
+        right: -8%;
+    }
+
+    .how-workforce-works-step-sec .arrow-image {
+        right: -20% !important;
+    }
+
+    .featurette-heading {
+        margin-top: 0;
+    }
+
+    .workforce-contact ul.c-location {
+        width: inherit;
+    }
+}
