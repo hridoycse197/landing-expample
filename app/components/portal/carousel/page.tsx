@@ -15,7 +15,7 @@ export default function Carousel() {
         />  <div className="container">
           <div className="carousel-caption text-start">
             <h2>
-              Workforce App for the Supervision of Electrical and Telecom
+              iSupplyGeo App for the Supervision of Electrical and Telecom
               Equipment Installation Works
             </h2>
             {/*<p>for the Supervision of Electrical and Comte Equipment Installation Works</p>*/}

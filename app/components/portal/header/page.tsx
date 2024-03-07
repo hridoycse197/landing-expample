@@ -1,6 +1,7 @@
 
 import Link from "next/link";
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Header() {
   return <>
@@ -9,7 +10,7 @@ export default function Header() {
         <div className="row">
           <div className="col-md-4">
             <a href="index.html" className="logo-theCityzen">
-              <img src="images/workforce-logo.svg" alt="" className="img-fluid" />
+              <Image width={130} height={50} src="/images/iSupply_geo_logo.png" alt="" className="img-fluid" />
             </a>
           </div>
           <div className="col-md-8">
